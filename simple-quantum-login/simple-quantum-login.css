@@ -1,0 +1,117 @@
+i.icon {
+    speak-as: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-image: url('./space-bkg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+.hero {
+    display: flex;
+    max-width: 1280;
+    min-width: 550px;
+    min-height: 350px;
+    -webkit-box-shadow: 10px 10px 52px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 10px 10px 52px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 52px 0px rgba(0, 0, 0, 0.3);
+}
+
+.hero>* {
+    padding: 0.8em;
+}
+
+.left-column {
+    background-color: #414a4c;
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.right-column {
+    background-color: white;
+    color: darkblue;
+    width: 50%;
+    border: 1px solid #333;
+    padding: 2em;
+}
+
+.right-column h2 {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.right-column form {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-column form input {
+    margin-bottom: 0.5em;
+    padding: 0.2em;
+    border-radius: 4px;
+}
+
+.right-column form [type="submit"] {
+    margin-top: 3em;
+    color: blue;
+    text-transform: uppercase;
+    margin-top: 3em;
+    border-radius: 3px;
+    border: 2px solid #ccc;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.right-column form input,
+.right-column form button {
+    font-size: 140%;
+}
+
+.upper div {
+    margin-top: 10px;
+}
+
+.lower div {
+    font-family: 'Roboto' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
